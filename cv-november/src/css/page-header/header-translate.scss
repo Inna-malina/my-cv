@@ -1,0 +1,38 @@
+.page-header__translate {
+  position: relative;
+
+  .border-lang {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #2294ec;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in all;
+    -webkit-transition: 0.3s ease-in all;
+    -moz-transition: 0.3s ease-in all;
+    -ms-transition: 0.3s ease-in all;
+    -o-transition: 0.3s ease-in all;
+}
+}
+.translate-block__list {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+
+  li {
+    cursor: pointer;
+  }
+}
+
+.active-ru {
+  top: -6px;
+  left: -10px;
+}
+
+.active-en {
+  top: -6px;
+  left: 34px;
+}
