@@ -1,1 +1,1 @@
-### https://inna-malina.github.io/my-cv/cv-november
+### https://inna-malina.github.io/my-cv/cv-november/dist/index.html
