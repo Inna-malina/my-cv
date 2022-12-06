@@ -1,0 +1,52 @@
+.figure__box {
+  z-index: 100;
+  .rectangle {
+    position: relative;
+    // width: 200px;
+    // height: 200px;
+
+    .rect-img {
+      position: absolute;
+    }
+  }
+
+  .rect-right-two {
+    top: -39px;
+    left: 725px;
+  }
+
+  .rect-right-three {
+    top: 99px;
+    left: 1180px;
+  }
+  .rect-right-four {
+    top: 636px;
+    left: 1300px;
+  }
+
+  .rect-right-five {
+    top: 161px;
+    left: 1721px;
+
+    .rect-img {
+      transform: rotate(325deg);
+      -webkit-transform: rotate(325deg);
+      -moz-transform: rotate(325deg);
+      -ms-transform: rotate(325deg);
+      -o-transform: rotate(325deg);
+    }
+  }
+
+  .rect-right-six {
+    top: 532px;
+    left: 1883px;
+
+    .rect-img {
+      transform: rotate(325deg);
+      -webkit-transform: rotate(325deg);
+      -moz-transform: rotate(325deg);
+      -ms-transform: rotate(325deg);
+      -o-transform: rotate(325deg);
+    }
+  }
+}
