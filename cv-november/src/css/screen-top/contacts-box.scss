@@ -1,0 +1,38 @@
+.top-info-contacts__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+  .info-contact__title {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  & > *:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+  }
+
+  ul {
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      a {
+        font-size: 18px;
+        color: black;
+      }
+    }
+
+    & > *:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
+  }
+}
