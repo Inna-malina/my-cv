@@ -1,0 +1,31 @@
+.portfolio-content__box {
+  display: flex;
+}
+.portfolio-content-img__box {
+  width: 50%;
+  height: 350px;
+  overflow-y: scroll;
+    border-radius: 10px  ;
+    
+    -webkit-border-radius: 10px  ;
+    -moz-border-radius: 10px  ;
+    -ms-border-radius: 10px  ;
+    -o-border-radius: 10px  ;
+
+
+  img {
+    display: block;
+    width: 100%;
+    height: 500px;
+
+
+
+}
+}
+.portfolio-content-description__box {
+  width: 50%;
+}
+.description-title {
+}
+.description-text {
+}
