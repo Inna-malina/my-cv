@@ -11,6 +11,9 @@ const translate = {
     "my-phone": "тел.: 8-923-182-88-48",
     "my-telegram": "телеграм: https://t.me/Inna_Cherkashina",
     "my-gh": "мой github",
+
+    "portfolio-nav-animation": "Анимация",
+    "portfolio-nav-others": "Разное",
   },
 
   'en': {
@@ -25,6 +28,9 @@ const translate = {
     "my-phone": "8-923-182-88-48",
     "my-telegram": "telegram: https://t.me/Inna_Cherkashina",
     "my-gh": "my github",
+
+    "portfolio-nav-animation": "Animation",
+    "portfolio-nav-others": "Others",
   }
 };
 

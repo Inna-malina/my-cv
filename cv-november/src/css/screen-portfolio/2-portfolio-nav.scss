@@ -1,0 +1,17 @@
+.portfolio-nav__box{
+
+  ul {
+    display: flex;
+
+    li {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      text-align: center;
+      color: white;
+      background: rgb(33 150 243 / 68%);;
+      padding: 10px 30px;
+      width: 160px;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+}
