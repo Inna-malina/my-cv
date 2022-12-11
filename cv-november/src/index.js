@@ -1,3 +1,4 @@
+import { toChangePortfolio } from "./modules/toChangePortfolio.js";
 import { toChangeScreen } from "./modules/toChangeScreen.js";
 import toTranslater from "./modules/toTranslater.js";
 import { toMooveBorderLang } from "./modules/toMoveBorderLeng.js";
@@ -8,3 +9,4 @@ toTranslater();
 toMooveBorderLang();
 toMooveAnimate();
 toChangeScreen();
+toChangePortfolio();
