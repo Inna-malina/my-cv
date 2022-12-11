@@ -8,7 +8,6 @@ export default function toTranslater() {
     let action = elem.target.dataset.leng;
 
     for (let key in translate[action]) {
-      console.log(translate[action][key]);
 
       dataAttrs.forEach(function(attr) {
         if (attr.dataset.translater === key) {
