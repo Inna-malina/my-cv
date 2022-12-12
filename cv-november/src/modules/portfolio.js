@@ -10,7 +10,7 @@ const portfolio = {
     },
     "song-film": {
       "top": "Песни из фильмов",
-      "text": "Музыкальная викторина. Игра имеет несколько уровней. Все уровни заблокированы, их сменить самостоятельно нельзя. Когда на текущем уровне угадывается мелодия, тогда становится актисной кнопка, которая даёи возможность перейти на следующий этап. В игре ведётся подсчёт и за каждую угаданную мелодию очки прибавляются, а за каждый неправильный ответ очки снимаются.",
+      "text": "Музыкальная викторина.Проект имеет кроссбраузерную, адаптивную вёрстку. Игра имеет несколько уровней. Все уровни заблокированы, их сменить самостоятельно нельзя. Когда на текущем уровне угадывается мелодия, тогда становится активной кнопка, которая даёт возможность перейти на следующий этап. В игре ведётся подсчёт и за каждую угаданную мелодию очки прибавляются, а за каждый неправильный ответ очки снимаются.",
       "githubcode": "https://github.com/Inna-malina/rs-school/tree/song-film/song-film",
       "linkproject": "https://inna-malina.github.io/rs-school/song-film/index.html",
       "imgsrc": "assets/rs-school__2.jpg",
@@ -19,8 +19,8 @@ const portfolio = {
     "portfolio": {
       "top": "Портфолио",
       "text": "Портфолио фотографа. Это одностраничный сайт. Имеет кроссбраузерную, адаптивную вёрстку Есть смена языков, смена темы сайта (светлая тёмная). Сайт имеет фильтрацию фотографий по временам года",
-      "githubcode": "https://github.com/Inna-malina/rs-school/tree/zoo/zoo",
-      "linkproject": "https://rolling-scopes-school.github.io/inna-malina-JSFEPRESCHOOL/portfolio/",
+      "githubcode": "https://github.com/Inna-malina/rs-school/tree/gh-pages/portfolio-photo",
+      "linkproject": "https://inna-malina.github.io/rs-school/portfolio-photo/index.html",
       "imgsrc":"assets/rs-school__3.jpg",
       "imgheight": "1975px"
     },
