@@ -4,6 +4,10 @@ import toTranslater from "./modules/toTranslater.js";
 import { toMooveBorderLang } from "./modules/toMoveBorderLeng.js";
 import { toMooveAnimate } from "./modules/toMooveAnimate.js";
 import "./css/index.scss";
+import "./images/rs-school/rs-school__1.jpg";
+import "./images/rs-school/rs-school__2.jpg";
+import "./images/rs-school/rs-school__3.jpg";
+
 
 toTranslater();
 toMooveBorderLang();
