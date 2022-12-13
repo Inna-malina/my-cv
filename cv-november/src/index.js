@@ -8,6 +8,8 @@ import "./images/rs-school/rs-school__1.jpg";
 import "./images/rs-school/rs-school__2.jpg";
 import "./images/rs-school/rs-school__3.jpg";
 
+import "./images/animation/animation__1.jpg";
+
 
 toTranslater();
 toMooveBorderLang();
