@@ -7,8 +7,15 @@ import "./css/index.scss";
 import "./images/rs-school/rs-school__1.jpg";
 import "./images/rs-school/rs-school__2.jpg";
 import "./images/rs-school/rs-school__3.jpg";
+import "./images/rs-school/rs-school-carousel__1.jpg";
+import "./images/rs-school/rs-school-carousel__2.jpg";
+import "./images/rs-school/rs-school-carousel__3.jpg";
+
 
 import "./images/animation/animation__1.jpg";
+import "./images/animation/animation__2.jpg";
+import "./images/animation/animation-carousel__1.jpg";
+import "./images/animation/animation-carousel__2.jpg";
 
 
 toTranslater();
