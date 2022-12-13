@@ -18,8 +18,8 @@ const portfolio = {
     },
     "portfolio": {
       "top": "Портфолио",
-      "text": "Портфолио фотографа. Это одностраничный сайт. Имеет кроссбраузерную, адаптивную вёрстку Есть смена языков, смена темы сайта (светлая тёмная). Сайт имеет фильтрацию фотографий по временам года",
-      "githubcode": "https://github.com/Inna-malina/rs-school/tree/gh-pages/portfolio-photo",
+      "text": "Портфолио фотографа. Это одностраничный сайт. Имеет кроссбраузерную, адаптивную вёрстку. Есть смена языков, смена темы сайта (светлая тёмная). Сайт имеет фильтрацию фотографий по временам года",
+      "githubcode": "https://github.com/Inna-malina/rs-school/tree/portfplio-photo/portfolio-photo",
       "linkproject": "https://inna-malina.github.io/rs-school/portfolio-photo/index.html",
       "imgsrc":"assets/rs-school__3.jpg",
       "imgheight": "1975px"
@@ -27,7 +27,23 @@ const portfolio = {
     "carousel":['carousel__1.jpg', 'carousel__2.jpg', 'carousel__3.jpg'],
   },
   "animation": {
-
+    "baikal": {
+      "top": "Байкал",
+      "text": "Проект для туристического агентства. Имеет кроссбраузерную, адаптивную вёрстку. Использовалась небольшая анимация: ховер эффекты, параллакс эффекты, 3-D элементы и т.д.",
+      "githubcode": "https://github.com/Inna-malina/baikal-test",
+      "linkproject": "https://inna-malina.github.io/baikal-test/",
+      "imgsrc": "assets/animation__1.jpg",
+      "imgheight": "1380px"
+    },
+    "fashion-house": {
+      "top": "Fashion House",
+      "text": "Проект для магазина одежды",
+      "githubcode": "https://github.com/Inna-malina/fashion-test",
+      "linkproject": "https://inna-malina.github.io/fashion-test/",
+      "imgsrc": "assets/rs-school__1.jpg",
+      "imgheight": "1805px"
+    },
+    "carousel":['carousel__1.jpg', 'carousel__2.jpg', 'carousel__3.jpg'],
   },
   "react": {
 

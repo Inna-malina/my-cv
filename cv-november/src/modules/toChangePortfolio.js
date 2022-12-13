@@ -9,10 +9,34 @@ export function toChangePortfolio() {
   let linkGithab = document.querySelector('.project-link__githab a');
   let linkProject = document.querySelector('.project-link__project a');
 
+  let navElems = document.querySelectorAll('.portfolio-nav__box ul li');
+
+  //Формируем основное оформление каждой страницы блока Мои работы (RS-School,Анимация,React,Разное)
+  navElems.forEach(function(element){
+    element.addEventListener('click', function(event){
+      let action = event.target;
+      disabled(navElems);
+      action.classList.add('active');
+      let elementPortfolio = portfolio[action.dataset.portfolio];
+      // console.log(Object.values(elementPortfolio)[0]);      
+      let info = Object.values(elementPortfolio)[0];
+      linkContentImg.href = info.linkproject;
+      contentImg.src = info.imgsrc; 
+      contentImg.style.height = info.imgheight; 
+      contentTitle.textContent = info.top;
+      contentText.textContent = info.text; 
+      linkGithab.src = info.githubcode; 
+      linkProject.href = info.linkproject; 
+
+
+    });
+  });
+
+  //По клику на картинку карусели, происходит смена контента в блоке
   carouselElements.forEach(function (element) {
     element.addEventListener('click', function (event) {
       let action = event.target;
-      disabled();
+      disabled(carouselElements);
       action.classList.add('active');
       for (let key in portfolio) {
         //key - "rs-school","animation","react","others" 
@@ -24,7 +48,7 @@ export function toChangePortfolio() {
             contentImg.style.height = portfolio[key][elem].imgheight; 
             contentTitle.textContent = portfolio[key][elem].top;
             contentText.textContent = portfolio[key][elem].text; 
-            linkGithab.src = portfolio[key][elem].githubcode; 
+            linkGithab.href = portfolio[key][elem].githubcode; 
             linkProject.href = portfolio[key][elem].linkproject; 
           }
           
@@ -35,8 +59,8 @@ export function toChangePortfolio() {
     });
   });
 
-  function disabled() {
-    carouselElements.forEach(function (element) {
+  function disabled(blocks) {
+    blocks.forEach(function (element) {
       element.classList.remove('active');
     });
   }
