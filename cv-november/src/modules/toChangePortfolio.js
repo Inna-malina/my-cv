@@ -10,7 +10,6 @@ export function toChangePortfolio() {
   let linkProject = document.querySelector('.project-link__project a');
 
   let navElems = document.querySelectorAll('.portfolio-nav__box ul li');
-
   let carouselElements = document.querySelectorAll('.carousel-element');
 
   //Формируем основное оформление каждой страницы блока Мои работы (RS-School,Анимация,React,Разное)
@@ -29,9 +28,11 @@ export function toChangePortfolio() {
       contentImg.style.height = info.imgheight;
       contentTitle.textContent = info.top;
       contentText.textContent = info.text;
-      linkGithab.src = info.githubcode;
+      linkGithab.href = info.githubcode;
       linkProject.href = info.linkproject;
 
+      contentTitle.dataset.translater = `${action.dataset.portfolio}-portfolio-1__title`;
+      contentText.dataset.translater = `${action.dataset.portfolio}-portfolio-1__text`;
 
       //Создаём элементы карусели
       let imagesCarousel = document.querySelectorAll('.carousel-element');
@@ -46,9 +47,9 @@ export function toChangePortfolio() {
         imgElem.dataset.container = action.dataset.portfolio;
         imgElem.src = `assets/${action.dataset.portfolio}-carousel__${i}.jpg`;
         carouselField.append(imgElem);
-        if (imgElem.dataset.portfolio == "portfolio-1") {
-          imgElem.classList.add('active-carousel');
-        }
+        // if (imgElem.dataset.portfolio == "portfolio-1") {
+        //   imgElem.classList.add('active-carousel');
+        // }
         imgElem.addEventListener('click', function (event) {
           let action = event.target;
           for (let key in portfolio) {
@@ -63,6 +64,9 @@ export function toChangePortfolio() {
                 contentText.textContent = portfolio[key][elem].text;
                 linkGithab.href = portfolio[key][elem].githubcode;
                 linkProject.href = portfolio[key][elem].linkproject;
+
+                contentTitle.dataset.translater = `${action.dataset.container}-${elem}__title`;
+                contentText.dataset.translater = `${action.dataset.container}-${elem}__text`;
               }
             }
           }
@@ -79,8 +83,8 @@ export function toChangePortfolio() {
   carouselElements.forEach(function (element) {
     element.addEventListener('click', function (event) {
       let action = event.target;
-      disabled(carouselElements);
-      action.classList.add('active-carousel');
+      // disabled(carouselElements);
+      // action.classList.add('active-carousel');
       for (let key in portfolio) {
         // key - "rs-school","animation","react","others" 
         for (let elem in portfolio[key]) {

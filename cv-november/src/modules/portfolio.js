@@ -18,7 +18,7 @@ const portfolio = {
     },
     "portfolio-3": {
       "top": "Портфолио",
-      "text": "Портфолио фотографа. Это одностраничный сайт. Имеет кроссбраузерную, адаптивную вёрстку. Есть смена языков, смена темы сайта (светлая тёмная). Сайт имеет фильтрацию фотографий по временам года",
+      "text": "Портфолио фотографа. Это одностраничный сайт. Имеет кроссбраузерную, адаптивную вёрстку. Есть смена языков, смена темы сайта (светлая тёмная). Сайт имеет фильтрацию фотографий по временам года.",
       "githubcode": "https://github.com/Inna-malina/rs-school/tree/portfplio-photo/portfolio-photo",
       "linkproject": "https://inna-malina.github.io/rs-school/portfolio-photo/index.html",
       "imgsrc":"assets/rs-school__3.jpg",
@@ -46,7 +46,31 @@ const portfolio = {
     "carousel":['assets/animation-carousel__1.jpg', 'assets/animation-carousel__2.jpg'],
   },
   "react": {
-
+    "portfolio-1": {
+      "top": "Castomer Developer",
+      "text": "Это приложение было создано самоcтоятельно для закрепления базовых навыков React. Например роутеры, ссылки,классы, пропсы. Сайт имеет адаптивную, кроссбраузерную верстку. Содержит простую анимацию, работу с формой и видео.",
+      "githubcode": "https://github.com/Inna-malina/rs-school/tree/zoo/zoo",
+      "linkproject": "http://cast-dev-eact.cb75308.tmweb.ru/",
+      "imgsrc": "assets/react__1.jpg",
+      "imgheight": "640px"
+    },
+    "portfolio-2": {
+      "top": "Всё что вы любите в кофе",
+      "text": "Этот проект был создан самостоятельно, для закрепления знаний и навыков, полученных на курсе 'React Basic Level' от Ивана Петриченко. Этот сайт не имеет адаптивной верстки.",
+      "githubcode": "https://github.com/Inna-malina/rs-school/tree/song-film/song-film",
+      "linkproject": "http://coffee-react.cb75308.tmweb.ru/",
+      "imgsrc": "assets/react__2.jpg",
+      "imgheight": "666px"
+    },
+    "portfolio-3": {
+      "top": "Учёт сотрудников",
+      "text": "Это приложение было создано во время изучения react. Этот проект является результатом курса 'React Basic Level' от Ивана Петриченко. В этом проекте есть классы, компоненты, события. Этот сайт не имеет адаптивной верстки.",
+      "githubcode": "https://github.com/Inna-malina/rs-school/tree/portfplio-photo/portfolio-photo",
+      "linkproject": "http://employees.cb75308.tmweb.ru/",
+      "imgsrc":"assets/react__3.jpg",
+      "imgheight": "348px"
+    },
+    "carousel":['assets/react-carousel__1.jpg', 'assets/react-carousel__2.jpg', 'assets/react-carousel__3.jpg'],
   },
   "others": {
 
