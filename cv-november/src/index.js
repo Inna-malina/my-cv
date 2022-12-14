@@ -21,6 +21,10 @@ import "./images/react/react-carousel__1.jpg";
 import "./images/react/react-carousel__2.jpg";
 import "./images/react/react-carousel__3.jpg";
 
+import "./images/skills/css.jpg";
+import "./images/skills/html.jpg";
+import "./images/skills/js.jpg";
+
 
 toMooveAnimate();
 toChangeScreen();
