@@ -3,6 +3,8 @@
 @import './bunner-box/wave.scss';
 @import './screen-top/screen-top.scss';
 @import './screen-portfolio/1-portfolio-box.scss';
+@import './screen-skills/css.scss';
+
 
 * {
   margin: 0px;
@@ -48,7 +50,8 @@ li {
 }
 
 .center {
-  width: 80%;
+  // width: 80%;
+  max-width: 1200px;
   // height: 500px;
   margin: 0px auto;
 }
