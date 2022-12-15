@@ -4,26 +4,25 @@
   align-items: center;
   gap: 100px;
 }
-.page-header__menu {
 
+.page-header__menu {
   ul {
     display: flex;
     gap: 50px;
 
-    li{
-
-      a{
+    li {
+      a {
         position: relative;
         padding: 0px 0px 10px 0px;
 
-        &:after{
+        &:after {
           position: absolute;
-          bottom: 0;
+          bottom: -2px;
           left: 0;
           right: 0;
           margin: auto;
           width: 0%;
-          content: '.';
+          content: '';
           color: transparent;
           background: rgb(255, 255, 255);
           height: 2px;
@@ -32,17 +31,21 @@
           -moz-transition: all 0.3s;
           -ms-transition: all 0.3s;
           -o-transition: all 0.3s;
-}
+        }
 
-        &:hover:after{
+        &:hover:after {
           width: 100%;
         }
       }
     }
   }
-
 }
+
 .js-menu-link {
   color: white;
   font-size: 18px;
+}
+
+.active-header-nav{
+  border-bottom: 2px solid white;
 }
