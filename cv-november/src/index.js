@@ -24,6 +24,10 @@ import "./images/react/react-carousel__3.jpg";
 import "./images/skills/css.jpg";
 import "./images/skills/html.jpg";
 import "./images/skills/js.jpg";
+import "./images/skills/css-icon.png";
+import "./images/skills/html-icon.png";
+import "./images/skills/js-icon.png";
+
 
 
 toMooveAnimate();
