@@ -28,6 +28,17 @@ import "./images/skills/css-icon.png";
 import "./images/skills/html-icon.png";
 import "./images/skills/js-icon.png";
 
+import "./images/logo-educations/1.jpg";
+import "./images/logo-educations/2.jpg";
+import "./images/logo-educations/3.jpg";
+import "./images/logo-educations/4.jpg";
+import "./images/logo-educations/5.jpg";
+import "./images/logo-educations/6.jpg";
+import "./images/logo-educations/7.jpg";
+import "./images/logo-educations/8.jpg";
+import "./images/logo-educations/9.jpg";
+import "./images/logo-educations/10.jpg";
+
 
 
 toMooveAnimate();
