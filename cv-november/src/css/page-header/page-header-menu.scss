@@ -46,6 +46,24 @@
   font-size: 18px;
 }
 
-.active-header-nav{
+.active-header-nav {
   border-bottom: 2px solid white;
+}
+
+@media (max-width: 981px) {
+  .page-header__menu {
+    ul {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 916px) {
+  .js-menu-link {
+    color: white;
+    font-size: 14px;
+  }
+  
 }
