@@ -6,13 +6,12 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    gap: 150px;
+    gap: 80px;
 
     .top-info-photo__box {
       position: relative;
       width: 50%;
       box-sizing: border-box;
-
     }
     .top-info-contacts__box {
       width: 50%;
@@ -20,3 +19,6 @@
     }
   }
 }
+
+
+
