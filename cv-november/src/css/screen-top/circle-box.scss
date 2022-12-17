@@ -128,13 +128,13 @@
 }
 
 .moove-animate {
-  animation: spin 5s cubic-bezier(.9,-0.63,0,1.65);
-  -webkit-animation: spin 5s cubic-bezier(.9,-0.63,0,1.65);
+  animation: spin 5s cubic-bezier(0.9, -0.63, 0, 1.65);
+  -webkit-animation: spin 5s cubic-bezier(0.9, -0.63, 0, 1.65);
 }
 
-.turn-animate{
-    animation: turn 10s linear infinite;
-    -webkit-animation: turn 10s linear infinite;
+.turn-animate {
+  animation: turn 10s linear infinite;
+  -webkit-animation: turn 10s linear infinite;
 }
 
 @keyframes spin {
@@ -169,7 +169,7 @@
     -moz-transform: rotateY(30deg);
     -ms-transform: rotateY(30deg);
     -o-transform: rotateY(30deg);
-}
+  }
 
   50% {
     transform: rotateY(0deg);
@@ -185,7 +185,7 @@
     -moz-transform: rotateY(-30deg);
     -ms-transform: rotateY(-30deg);
     -o-transform: rotateY(-30deg);
-}
+  }
 
   100% {
     transform: rotateY(0deg);
@@ -196,31 +196,81 @@
   }
 }
 
-
-
-@media (max-width: 916px) and (max-height: 415px){
+@media (max-width: 916px) and (max-height: 415px) {
   .photo__box {
-    cursor: pointer;
     width: 250px;
     height: 250px;
     margin-left: -75px;
     margin-top: -75px;
     top: 35%;
     right: 0px;
-  
+
     .photo-back {
       width: 250px;
       height: 250px;
     }
-  
+
     .photo-middle {
       width: 250px;
       height: 250px;
     }
-  
+
     .photo-front {
       width: 250px;
       height: 250px;
+    }
+  }
+}
+
+@media (max-width: 821px) and (max-height: 1181px) {
+  .photo__box {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 741px) and (max-height: 415px) {
+  .photo__box {
+    width: 200px;
+    height: 200px;
+    margin-top: -95px;
+
+    .photo-back {
+      width: 200px;
+      height: 200px;
+    }
+
+    .photo-middle {
+      width: 200px;
+      height: 200px;
+    }
+
+    .photo-front {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+
+
+@media (max-width: 416px) and (max-height: 915px) {
+  .photo__box {
+    width: 150px;
+    height: 150px;
+    margin-top: -50px;
+
+    .photo-back {
+      width: 150px;
+      height: 150px;
+    }
+
+    .photo-middle {
+      width: 150px;
+      height: 150px;
+    }
+
+    .photo-front {
+      width: 150px;
+      height: 150px;
     }
   }
 }

@@ -66,7 +66,69 @@
           height: 14px;
         }
       }
+    }
+  }
+}
 
+@media (max-width: 741px) and (max-height: 415px) {
+  .top-info-contacts__box {
+    .info-contact__title {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    & > *:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
+
+    ul {
+      li {
+        gap: 10px;
+        a {
+          font-size: 12px;
+        }
+        svg {
+          width: 12px;
+          height: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 416px) and (max-height: 915px) {
+
+  .top-info-contacts__box {
+    .info-contact__title {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    & > *:not(:last-child) {
+      margin: 0px 0px 20px 0px;
+    }
+
+    ul {
+      li {
+        gap: 10px;
+        a {
+          font-size: 14px;
+        }
+        svg {
+          width: 14px;
+          height: 14px;
+        }
+
+        & > *:not(:last-child) {
+          margin: 0px 0px 15px 0px;
+        }
+      }
     }
   }
 }

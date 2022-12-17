@@ -1,6 +1,7 @@
 import { toChangePortfolio } from "./modules/toChangePortfolio.js";
 import { toChangeScreen } from "./modules/toChangeScreen.js";
 import { toMooveAnimate } from "./modules/toMooveAnimate.js";
+import { toActiveHeader } from "./modules/header-active.js";
 import "./css/index.scss";
 import "./images/rs-school/rs-school__1.jpg";
 import "./images/rs-school/rs-school__2.jpg";
@@ -44,3 +45,4 @@ import "./images/logo-educations/10.jpg";
 toMooveAnimate();
 toChangeScreen();
 toChangePortfolio();
+toActiveHeader();
