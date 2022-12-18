@@ -99,7 +99,7 @@
   }
 }
 
-@media (max-width: 416px) and (max-height: 915px) {
+@media (max-width: 416px) and (max-height: 916px) {
 
   .top-info-contacts__box {
     .info-contact__title {
@@ -127,6 +127,39 @@
 
         & > *:not(:last-child) {
           margin: 0px 0px 15px 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 285px) and (max-height: 916px) {
+  .top-info-contacts__box {
+    .info-contact__title {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    & > *:not(:last-child) {
+      margin: 0px 0px 20px 0px;
+    }
+
+    ul {
+      li {
+        gap: 10px;
+        a {
+          font-size: 10px;
+        }
+        svg {
+          width: 10px;
+          height: 10px;
+        }
+
+        & > *:not(:last-child) {
+          margin: 0px 0px 0px 0px;
         }
       }
     }
