@@ -57,13 +57,20 @@
   }
 }
 
+@media (max-width: 769px) and (max-height: 1025px){
+  .js-menu-link {
+    font-size: 16px;
+}
+}
+
+
 @media (max-width: 741px) and (max-height: 415px){
   .js-menu-link {
     font-size: 12px;
   }
 }
 
-@media (max-width: 416px) and (max-height: 915px) {
+@media (max-width: 416px) and (max-height: 916px) {
   .page-header__menu {
     ul {
       display: flex;
@@ -102,3 +109,4 @@
     }
   }
 }
+
