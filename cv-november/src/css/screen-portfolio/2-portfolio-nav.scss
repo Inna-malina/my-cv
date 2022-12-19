@@ -23,3 +23,30 @@
     // background: rgb(0 121 207);
   }
 }
+
+@media (max-width: 950px) and (max-height: 500px){
+  .portfolio-nav__box {
+    ul {
+  
+      li {
+        font-size: 11px;
+        padding: 5px 22px;
+        width: 90px;
+
+      }
+    }
+  }
+}
+
+@media (max-width: 655px) and (max-height: 950px){
+  .portfolio-nav__box {
+    ul {
+  
+      li {
+        font-size: 8px;
+        padding: 5px 22px;
+        width: 60px;
+      }
+    }
+  }
+}
