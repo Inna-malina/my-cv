@@ -47,7 +47,7 @@ const portfolio = {
   },
   "react": {
     "portfolio-1": {
-      "top": "Castomer Developer",
+      "top": "Customer Developer",
       "text": "Это приложение было создано самоcтоятельно для закрепления базовых навыков React. Например роутеры, ссылки,классы, пропсы. Сайт имеет адаптивную, кроссбраузерную верстку. Содержит простую анимацию, работу с формой и видео.",
       "githubcode": "https://github.com/Inna-malina/rs-school/tree/zoo/zoo",
       "linkproject": "http://cast-dev-eact.cb75308.tmweb.ru/",
