@@ -38,8 +38,8 @@ const portfolio = {
     "portfolio-2": {
       "top": "Fashion House",
       "text": "Проект для магазина одежды",
-      "githubcode": "https://github.com/Inna-malina/fashion-test",
-      "linkproject": "https://inna-malina.github.io/fashion-test/",
+      "githubcode": "https://github.com/Inna-malina/fashion/tree/fashion-pages",
+      "linkproject": "https://inna-malina.github.io/fashion/",
       "imgsrc": "assets/animation__2.jpg",
       "imgheight": "350px"
     },
