@@ -65,7 +65,7 @@ const portfolio = {
     "portfolio-3": {
       "top": "Учёт сотрудников",
       "text": "Это приложение было создано во время изучения react. Этот проект является результатом курса 'React Basic Level' от Ивана Петриченко. В этом проекте есть классы, компоненты, события. Этот сайт не имеет адаптивной верстки.",
-      "githubcode": "https://github.com/Inna-malina/rs-school/tree/portfplio-photo/portfolio-photo",
+      "githubcode": "https://github.com/Inna-malina/employees-react",
       "linkproject": "http://employees.cb75308.tmweb.ru/",
       "imgsrc":"assets/react__3.jpg",
       "imgheight": "348px"
