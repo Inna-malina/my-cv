@@ -49,7 +49,7 @@ const portfolio = {
     "portfolio-1": {
       "top": "Customer Developer",
       "text": "Это приложение было создано самоcтоятельно для закрепления базовых навыков React. Например роутеры, ссылки,классы, пропсы. Сайт имеет адаптивную, кроссбраузерную верстку. Содержит простую анимацию, работу с формой и видео.",
-      "githubcode": "https://github.com/Inna-malina/rs-school/tree/zoo/zoo",
+      "githubcode": "https://github.com/Inna-malina/cust-dev-react",
       "linkproject": "http://cast-dev-eact.cb75308.tmweb.ru/",
       "imgsrc": "assets/react__1.jpg",
       "imgheight": "640px"
@@ -57,7 +57,7 @@ const portfolio = {
     "portfolio-2": {
       "top": "Всё что вы любите в кофе",
       "text": "Этот проект был создан самостоятельно, для закрепления знаний и навыков, полученных на курсе 'React Basic Level' от Ивана Петриченко. Этот сайт не имеет адаптивной верстки.",
-      "githubcode": "https://github.com/Inna-malina/rs-school/tree/song-film/song-film",
+      "githubcode": "https://github.com/Inna-malina/coffe-react",
       "linkproject": "http://coffee-react.cb75308.tmweb.ru/",
       "imgsrc": "assets/react__2.jpg",
       "imgheight": "666px"
@@ -65,7 +65,7 @@ const portfolio = {
     "portfolio-3": {
       "top": "Учёт сотрудников",
       "text": "Это приложение было создано во время изучения react. Этот проект является результатом курса 'React Basic Level' от Ивана Петриченко. В этом проекте есть классы, компоненты, события. Этот сайт не имеет адаптивной верстки.",
-      "githubcode": "https://github.com/Inna-malina/rs-school/tree/portfplio-photo/portfolio-photo",
+      "githubcode": "https://github.com/Inna-malina/employees-react",
       "linkproject": "http://employees.cb75308.tmweb.ru/",
       "imgsrc":"assets/react__3.jpg",
       "imgheight": "348px"
