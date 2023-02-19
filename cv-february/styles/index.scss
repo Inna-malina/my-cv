@@ -1,0 +1,22 @@
+@import "./header/header.scss";
+@import "./bunner/bunner.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.center {
+  max-width: 940px;
+  margin: 0px auto;
+}
+
+
+a {
+  color: rgb(210, 30, 30);
+}

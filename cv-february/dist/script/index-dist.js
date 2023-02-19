@@ -1,0 +1,1 @@
+function letter(){return 7}letter();
