@@ -1,0 +1,255 @@
+.portfolio-content__box {
+  display: flex;
+  gap: 50px;
+}
+.portfolio-content-img__box {
+  width: 50%;
+  height: 350px;
+  overflow-y: scroll;
+  border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 1805px;
+  }
+
+  /* ширина scrollbar */
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* стили дорожки */
+  &::-webkit-scrollbar-track {
+    background: #2196f3;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+  }
+
+  /*стили ползунка*/
+  &::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+  }
+}
+
+.portfolio-content-description__box {
+  width: 50%;
+
+  .description-title {
+    a {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+
+  .description-text {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .project-link__githab {
+    display: flex;
+    gap: 20px;
+
+    svg {
+      display: block;
+      fill: #ffffff;
+    }
+
+    a {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+    }
+  }
+  .project-link__project {
+    display: flex;
+    gap: 20px;
+
+    svg {
+      display: block;
+      fill: #ffffff;
+    }
+
+    a {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+    }
+  }
+}
+
+.portfolio-content-description__box > *:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+.project-link__box > *:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
+@media (max-width: 950px) and (max-height: 500px){
+  .portfolio-content__box {
+    display: flex;
+    gap: 50px;
+  }
+  .portfolio-content-img__box {
+    width: 50%;
+    height: 220px;
+  }
+  
+  .portfolio-content-description__box {
+    .description-title {
+      font-size: 18px;
+    }
+  
+    .description-text {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  
+    .project-link__githab {
+      display: flex;
+      gap: 20px;
+  
+      svg {
+        display: block;
+        fill: #ffffff;
+        width: 12px;
+      }
+  
+      a {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+      }
+    }
+    .project-link__project {
+      display: flex;
+      gap: 20px;
+  
+      svg {
+        display: block;
+        fill: #ffffff;
+        width: 12px;
+      }
+  
+      a {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+      }
+    }
+  }
+  
+  .portfolio-content-description__box > *:not(:last-child) {
+    margin: 0px 0px 4px 0px;
+  }
+  .project-link__box > *:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+@media (max-width: 655px) and (max-height: 950px){
+  .portfolio-content__box {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+  }
+  .portfolio-content-img__box {
+    width: 100%;
+    height: 220px;
+  }
+  
+  .portfolio-content-description__box {
+    .description-title {
+      font-size: 18px;
+    }
+  
+    .description-text {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  
+    .project-link__githab {
+      display: flex;
+      gap: 20px;
+  
+      svg {
+
+        width: 12px;
+      }
+  
+      a {
+
+        font-size: 12px;
+      }
+    }
+    .project-link__project {
+      display: flex;
+      gap: 20px;
+  
+      svg {
+
+        width: 12px;
+      }
+  
+      a {
+
+        font-size: 12px;
+      }
+    }
+  }
+  
+  .portfolio-content-description__box > *:not(:last-child) {
+    margin: 0px 0px 4px 0px;
+  }
+  .project-link__box > *:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+  }
+  
+
+}
+
+@media (max-width: 500px) and (max-height: 950px){
+  .portfolio-content__box {
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+  }
+  .portfolio-content-img__box {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .portfolio-content-description__box {
+    width: 100%;
+
+    .description-title {
+      font-size: 18px;
+    }
+
+  }
+  
+
+}
+
+@media (max-width: 300px) and (max-height: 655px){
+  .portfolio-content-img__box {
+    width: 100%;
+    height: 140px;
+  }
+}

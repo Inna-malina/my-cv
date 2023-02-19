@@ -63,9 +63,54 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif|svg|webp|ico)$/i,
-        type: mode === 'production' ? './asset' : 'asset/resource',
+        test:/\ico$/,
+        type: 'asset/resource',
+        generator: {
+          filename:'assets/[name][ext]'
+        }
       },
+      {
+        test:/\png$/i,
+        type: 'asset/resource',
+        generator: {
+          filename:'assets/[name][ext]'
+        }
+      },
+      {
+        test:/\svg$/i,
+        type: 'asset/resource',
+        generator: {
+          filename:'assets/[name][ext]'
+        }
+      },
+      {
+        test:/\jpeg$/i,
+        type: 'asset/resource',
+        generator: {
+          filename:'assets/[name][ext]'
+        }
+      },
+      {
+        test:/\jpg$/i,
+        type: 'asset/resource',
+        generator: {
+          filename:'assets/[name][ext]'
+        }
+      },
+      {
+        test:/\webp$/i,
+        type: 'asset/resource',
+        generator: {
+          filename:'assets/[name][ext]'
+        }
+      },
+      // {
+      //   test: /\.(png|jpe?g|gif|svg|webp|ico)$/i,
+      //   loader: 'url',
+      //   type: 'asset/resource',
+      //   type: mode === 'production' ? './asset' : 'asset/resource',
+
+      // },
       {
         test: /\.(woff2?|eot|ttf|otf)$/i,
         type: 'asset/resource',

@@ -1,0 +1,22 @@
+@import './2-portfolio-nav.scss';
+@import './3-portfolio-main.scss';
+@import './4-portfolio-content.scss';
+@import './5-portfolio-carousel.scss';
+
+.portfolio__box{
+  width: 100%;
+  padding: 100px 0px 0px 0px;
+}
+@media (max-width: 950px) and (max-height: 500px){
+  .portfolio__box{
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 655px) and (max-height: 950px){
+  .portfolio__box{
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+  }
+}
